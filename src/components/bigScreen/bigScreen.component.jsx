@@ -1,5 +1,5 @@
 import { Rapperd } from './bigScreen.styles'
-export const BigScreen = () => {
+const BigScreen = () => {
     return (
         <Rapperd>
             <div className="big-screen">
@@ -9,3 +9,4 @@ export const BigScreen = () => {
         </Rapperd>
     )
 }
+export default BigScreen

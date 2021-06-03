@@ -1,5 +1,5 @@
 import { Rapperd } from './mobile.styles.jsx'
-export const Mobile = () => {
+const Mobile = () => {
     return (
         <Rapperd>
             <div className="mobile">
@@ -8,3 +8,5 @@ export const Mobile = () => {
         </Rapperd>
     )
 }
+
+export default Mobile;

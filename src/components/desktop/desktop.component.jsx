@@ -1,5 +1,5 @@
 import { Rapperd } from './desktop.styles.jsx'
-export const Desktop = () => {
+const Desktop = () => {
     return (
         <Rapperd>
             <div className="desktop">
@@ -9,3 +9,4 @@ export const Desktop = () => {
         </Rapperd>
     )
 }
+export default Desktop

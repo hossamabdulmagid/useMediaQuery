@@ -1,5 +1,5 @@
 import { Rapperd } from './tabletMobile.styles.jsx'
-export const TabletMobile = () => {
+const TabletMobile = () => {
     return (
         <Rapperd>
             <div className="tablet-mobile">
@@ -9,3 +9,5 @@ export const TabletMobile = () => {
         </Rapperd>
     );
 };
+
+export default TabletMobile;

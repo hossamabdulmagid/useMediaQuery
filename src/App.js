@@ -1,10 +1,10 @@
 import { useMediaQuery } from 'react-responsive'
 import './App.css'
-import { BigScreen } from './components/bigScreen/bigScreen.component'
-import { Desktop } from './components/desktop/desktop.component'
-import { Laptop } from './components/laptop/laptop.component'
-import { Mobile } from './components/mobile/mobile.component'
-import { TabletMobile } from './components/tablet-mobile/tabletMobile.component'
+import BigScreen from './components/bigScreen/bigScreen.component'
+import Desktop from './components/desktop/desktop.component'
+import Laptop from './components/laptop/laptop.component'
+import Mobile from './components/mobile/mobile.component'
+import TabletMobile from './components/tablet-mobile/tabletMobile.component'
 
 
 
@@ -31,15 +31,14 @@ const App = () => {
   return (
     <div>
       <h1>React Responsive - a guide</h1>
-      { isMobileDevice && <Mobile />}
-      {
-        isTabletDevice && <>
-          <TabletMobile />
-          {isDesktop && <Desktop />}
-          {isLaptop && <Laptop />}
-          {isBigScreen && <BigScreen />}
-        </>
-      }</div>
+      <>
+        { isMobileDevice && <Mobile />}
+        {isTabletDevice && <TabletMobile />}
+        {isDesktop && <Desktop />}
+        {isLaptop && <Laptop />}
+        {isBigScreen && <BigScreen />}
+      </>
+    </div >
 
 
   )

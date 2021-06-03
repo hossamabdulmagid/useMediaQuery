@@ -1,6 +1,6 @@
 import { Rapperd } from './laptop.styles.jsx'
 
-export const Laptop = () => {
+const Laptop = () => {
     return (
         <Rapperd>
             <div className="laptop">
@@ -10,3 +10,4 @@ export const Laptop = () => {
         </Rapperd>
     )
 }
+export default Laptop;
